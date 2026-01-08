@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShivX AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="box">
+    <h2>🤖 ShivX</h2>
+
+    <div id="chat">
+      <p><b>ShivX:</b> Hi 👋 I’m ShivX. Created by Shiv. Ask me anything.</p>
+    </div>
+
+    <input
+      id="msg"
+      placeholder="Ask anything..."
+      onkeydown="if(event.key==='Enter') send()"
+    />
+    <button onclick="send()">Send</button>
+
+    <p class="footer">Created by Shiv</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
